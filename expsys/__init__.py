@@ -1,1 +1,1 @@
-from .expsys import load_from_file, interact, QA
+from .expsys import QA, interact, load_from_file

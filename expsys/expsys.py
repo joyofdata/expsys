@@ -1,7 +1,8 @@
-from pydantic import BaseModel, StrictStr
-from typing import Union, Optional
-import click
 import json
+from typing import Optional, Union
+
+import click
+from pydantic import BaseModel, StrictStr
 
 
 class QA(BaseModel):
