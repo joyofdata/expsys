@@ -27,3 +27,10 @@ def interact(qa: Union[QA, str]) -> None:
         interact(n)
     else:
         print(n)
+
+
+@click.command()
+@click.option("--file", help="Json file containing expert system logic.")
+def main(file):
+    qa = load_from_file(file)
+    interact(qa)
