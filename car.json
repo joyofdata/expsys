@@ -1,0 +1,24 @@
+{
+    "q": "is car silent when you turn the key?",
+    "y": {
+        "q": "are battery terminals corroded?",
+        "y": "clean terminals and try starting again.",
+        "n": "replace cables and try again."
+    },
+    "n": {
+        "q": "does car make clicking noise?",
+        "y": "replace battery.",
+        "n": {
+            "q": "does car crank up but fails to start?",
+            "y": "check spark plug connections.",
+            "n": {
+                "q": "does engine start and then dies?",
+                "y": {
+                    "q": "does your car have fuel injection?",
+                    "y": "get it in for service.",
+                    "n": "make sure choke is opening and closing."
+                }
+            }
+        }
+    }
+}
