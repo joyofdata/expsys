@@ -1,7 +1,9 @@
-from expsys import load_from_file, QA, interact
 from pathlib import Path
+
 import click
 import pytest
+
+from expsys import QA, interact, load_from_file
 
 
 def test_load_from_file():
